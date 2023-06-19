@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Music</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="favicon.ico" alt="image" width="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top Container -->
+    <div class="top-container-1">
+        <div class="btn-start"><button type="button" class="btn btn-outline-secondary">Sign In</button>
+            <button type="button" class="btn btn-outline-secondary">Log In</button>
+        </div>
+        <div class="form-container">
+            <div class="form-heading">
+                Create an account
+            </div>
+            <div class="form-content">
+                No subscriptions. Membership is free!
+                <br>
+                Use an existing login so you don't have to remember another password:
+                <div class="form-images">
+                    <img src="fb.png" alt="facebook">
+                    <img src="twitter.png" alt="twitter">
+                    <img src="google.png" alt="google">
+                </div>
+            </div>
+            <br>
+            <div class="form-signin">
+                Or create a new account
+            </div>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Last name">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Enter your email">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputAddress2"
+                        placeholder="Enter your password">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-secondary">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Info container -->
+    <div class="info-container">
+        <div class="info-row">
+            <img class="fans-img" src="fans.jpg" alt="fans">
+            <h3>For music fans:</h3>
+            <p>
+            <ul>
+                <li>Tell us what music you like.</li>
+                <li>We recommend people with similar tastes you can follow.</li>
+                <li>You discover new music that you'll love.</li>
+            </ul>
+            </p>
+        </div>
+        <div class="info-row">
+            <img class="rehearsal-img" src="rehearsal.jpg" alt="professionals">
+            <h3>For musicians and professionals:</h3>
+            <p>
+            <ul>
+                <li>Create a profile for yourself and your band or group.</li>
+                <li>Create posts to help fans, musicians and other like-minded people discover you.</li>
+                <li>Get access to rehearsal space at discounted rates.</li>
+            </ul>
+            </p>
+        </div>
+        <div class="info-row">
+            <img class="piano-img" src="piano.gif" alt="rehearsal">
+            <h3>For rehearsal studios:</h3>
+            <p>
+            <ul>
+                <li>Use our free online booking system to manage your rooms and equipment.</li>
+                <li>If there are any surplus rooms not booked through our normal channels, we provide a market .</li>
+            </ul>
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Pricing -->
+    <div class="price-container">
+        <div class="card-1">
+            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Voice Plan</div>
+                <div class="card-body">
+                    <h5 class="card-title">4.99$/month</h5>
+                    <ul>
+                        <li>1 person</li>
+                        <li>Assistant on Android devices</li>
+                        <li>Songs, playlists, stations</li>
+                        <li>All devices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Individual Plan</div>
+                <div class="card-body">
+                    <h5 class="card-title">9.99$/month</h5>
+                    <ul>
+                        <li>1 person</li>
+                        <li>Assistant on Android devices</li>
+                        <li>Songs, playlists, stations, lyrics, music videos</li>
+                        <li>Spatial and lossless audio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card border-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h5 class="card-title">14.99$/month</h5>
+                    <ul>
+                        <li>Upto 6 persons</li>
+                        <li>Assistant on Android devices</li>
+                        <li>Songs, playlists, stations, lyrics, music videos</li>
+                        <li>Spatial and lossless audio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-conatiner">
+        <ul class="contact-list">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>News</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>Sitemap</li>
+        </ul>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
